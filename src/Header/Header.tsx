@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Header.module.css';
-import { Item } from './Item';
+import { Item } from '../Item';
 // import Logo from './Logo'
 // import Button from './Button';
 

@@ -6,10 +6,10 @@ type ItemProps = {
   url: string;
 };
 
-export const Item = (props: ItemProps) => {
+export const Item = ({ text, url }: ItemProps) => {
   return (
-    <a className={styles.text} href={props.url}>
-      {props.text}
+    <a className={styles.item} href={url}>
+      {text}
     </a>
   );
 };
