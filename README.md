@@ -41,7 +41,7 @@ Run Code Formatter Check
 
 Run Code Formatting
 
-    npm run make-pretty
+    npm run fix
 
 Run All Style Checks
 
