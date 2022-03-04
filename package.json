@@ -1,0 +1,40 @@
+{
+  "name": "vite-react-ts",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview",
+    "style:all": "npm run style:lint && npm run style:prettier && npm run check-types",
+    "style:lint": "eslint '**/*.{js,jsx,ts,tsx}'",
+    "style:prettier": "npx prettier --check '**/*.{js,jsx,ts,tsx}'",
+    "check-types": "tsc",
+    "make-pretty": "npx prettier --write '**/*.{js,jsx,ts,tsx}'",
+    "prepare": "npx husky install"
+  },
+  "dependencies": {
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0"
+  },
+  "devDependencies": {
+    "@types/babel__core": "^7.1.17",
+    "@types/node": "^17.0.7",
+    "@types/react": "^17.0.38",
+    "@types/react-dom": "^17.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.10.2",
+    "@typescript-eslint/parser": "^5.4.0",
+    "@vitejs/plugin-react": "^1.1.4",
+    "eslint": "^8.8.0",
+    "eslint-config-airbnb-typescript": "^16.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "husky": "^7.0.2",
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.4",
+    "vite": "^2.7.13"
+  }
+}
