@@ -1,0 +1,44 @@
+.green {
+  margin: 32px 0 0;
+  padding: 7px 16px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 30px;
+  background-color: rgb(0 97 64);
+  min-height: 35px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.white {
+  /* display: inline-block; */
+  padding: 7px 16px;
+  color: black;
+  border: 1px solid black;
+  border-radius: 50px;
+  background-color: white;
+  height: 32.8px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-right: 1.6rem;
+}
+
+.white:hover {
+  cursor: pointer;
+}
+
+.black {
+  display: inline-block;
+  padding: 7px 16px;
+  color: white;
+  border: 1px solid black;
+  border-radius: 50px;
+  background-color: black;
+  height: 32.8px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.black:hover {
+  cursor: pointer;
+}
