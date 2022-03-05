@@ -1,5 +1,9 @@
 :root {
   --header-link-color: black;
-  --header-button-primary: #fff;
-  --header-button-primary-hover: #444;
+  --header-white-button: #fff;
+  --header-black-button: #444;
+
+  --primary-background-color-green: rgb(0,97,64);
+  --secondary-background-color-mint: rgb(212,233,226);
+  --third-background-color-beige: rgb(244,243,238);
 }
