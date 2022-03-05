@@ -1,7 +1,7 @@
 :root {
   --header-link-color: black;
   --header-white-button: #fff;
-  --header-black-button: #444;
+  --header-black-button: black;
 
   --primary-background-color-green: rgb(0,97,64);
   --secondary-background-color-mint: rgb(212,233,226);

@@ -16,7 +16,7 @@
   color: black;
   border: 1px solid black;
   border-radius: 50px;
-  background-color: white;
+  background-color: var(--header-white-button);
   height: 32.8px;
   font-size: 14px;
   font-weight: 600;
@@ -33,7 +33,7 @@
   color: white;
   border: 1px solid black;
   border-radius: 50px;
-  background-color: black;
+  background-color: var(--header-black-button);
   height: 32.8px;
   font-size: 14px;
   font-weight: 600;
