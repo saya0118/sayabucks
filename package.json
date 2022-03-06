@@ -14,7 +14,6 @@
     "style:prettier:fix": "npm run style:prettier -- --write",
     "fix": "npm run style:prettier:fix && concurrently 'npm:style:lint:fix' 'npm:style:css:fix'",
     "check-types": "tsc",
-    "say-hi": "echo hi",
     "prepare": "npx husky install"
   },
   "dependencies": {
