@@ -48,3 +48,5 @@ Run All Style Checks
     npm run style:all
 
 You can find this template at https://github.com/bastiannispel/vite-react-ts
+
+Some new line
