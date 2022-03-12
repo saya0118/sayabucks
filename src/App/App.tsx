@@ -1,10 +1,10 @@
 import React from 'react';
 import { Header } from '../Header';
-import './App.module.css';
+import styles from './App.module.css';
 
 export default function App() {
   return (
-    <div>
+    <div className={styles.app}>
       <Header />
     </div>
   );
