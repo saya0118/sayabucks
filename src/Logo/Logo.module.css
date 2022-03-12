@@ -1,0 +1,13 @@
+.logo {
+  height: 51px;
+  width: 51px;
+}
+
+.svg {
+  width: 45px;
+}
+
+.block {
+  display: block;
+  align-items: center;
+}

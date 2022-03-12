@@ -5,4 +5,9 @@
   --primary-background-color-green: rgb(0 97 64);
   --secondary-background-color-mint: rgb(212 233 226);
   --third-background-color-beige: rgb(244 243 238);
+
+  margin: 0;
+  font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 19px;
 }

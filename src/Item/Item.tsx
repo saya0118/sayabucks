@@ -8,7 +8,7 @@ type ItemProps = {
 
 export const Item = ({ text, url }: ItemProps) => {
   return (
-    <a className={styles.item} href={url}>
+    <a className={styles['items-list-text']} href={url}>
       {text}
     </a>
   );
