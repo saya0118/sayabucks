@@ -25,6 +25,7 @@
 
 .white:hover {
   cursor: pointer;
+  background-color: rgb(243, 241, 241);
 }
 
 .black {
@@ -41,4 +42,5 @@
 
 .black:hover {
   cursor: pointer;
+  background-color: rgb(65, 59, 59);
 }
