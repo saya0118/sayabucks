@@ -8,6 +8,11 @@
   --white-button-hover-color: rgb(243 241 241);
   --black-button-hover-color: rgb(65 59 59);
   --header-under-bar-color: rgb(220 220 220);
+  --main-bg-black: rgb(30 57 50);
+  --main-bg-mint: rgb(212 233 226);
+  --main-bg-beige: rgb(244 243 238);
+  --main-white: rgb(255 255 255);
+  --main-text-black: rgb(30 57 50);
 
   margin: 0;
   padding: 0;
