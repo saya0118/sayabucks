@@ -14,14 +14,11 @@
     "style:prettier:fix": "npm run style:prettier -- --write",
     "fix": "npm run style:prettier:fix && concurrently 'npm:style:lint:fix' 'npm:style:css:fix'",
     "check-types": "tsc",
-    "prepare": "npx husky install",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "prepare": "npx husky install"
   },
   "dependencies": {
     "react": "^17.0.0",
-    "react-dom": "^17.0.0",
-    "svg": "^0.1.0"
+    "react-dom": "^17.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.17.5",
