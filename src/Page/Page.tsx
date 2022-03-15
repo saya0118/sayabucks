@@ -8,7 +8,10 @@ export const Page = () => {
       <div className={styles['content-inner']}>
         <div className={styles['content-flex']}>
           <div className={styles['inner-content-image']}>
-            <img className={styles['main-img']} />
+            <img
+              className={styles['main-img']}
+              src=".././public/143-77231.jpeg"
+            />
           </div>
           <div className={styles['inner-content-description']}>
             <div className={styles['inner-content-container']}>
@@ -33,14 +36,20 @@ export const Page = () => {
             </div>
           </div>
           <div className={styles['inner-content-image']}>
-            <img className={styles['main-img']} />
+            <img
+              className={styles['main-img']}
+              src=".././public/143-77232.jpeg"
+            />
           </div>
         </div>
       </div>
       <div className={styles['content-inner']}>
         <div className={styles['content-flex']}>
           <div className={styles['inner-content-image']}>
-            <img className={styles['main-img']} />
+            <img
+              className={styles['main-img']}
+              src=".././public/143-77233.jpeg"
+            />
           </div>
           <div className={styles['inner-content-description']}>
             <div className={styles['inner-content-container']}>
@@ -58,7 +67,10 @@ export const Page = () => {
         <div className={styles['content-flex']}>
           <div className={styles['content-colum']}>
             <div className={styles['inner-content-image']}>
-              <img className={styles['main-img']} />
+              <img
+                className={styles['main-img']}
+                src=".././public/143-77235.jpeg"
+              />
             </div>
             <div className={styles['inner-content-description']}>
               <div className={styles['inner-content-container']}>
@@ -73,7 +85,10 @@ export const Page = () => {
           </div>
           <div className={styles['content-colum']}>
             <div className={styles['inner-content-image']}>
-              <img className={styles['main-img']} />
+              <img
+                className={styles['main-img']}
+                src=".././public/143-77236.jpeg"
+              />
             </div>
             <div className={styles['inner-content-description']}>
               <div className={styles['inner-content-container']}>
@@ -93,32 +108,18 @@ export const Page = () => {
           <div className={styles['inner-content-description']}>
             <div className={styles['inner-content-container']}>
               <MainTextBox
-                span={'Earn even more with Starbucks Rewards and TD'}
+                span={'Link. Order. Sip. Repeat'}
                 description={
-                  'Link your Starbucks Rewards account with select TD Cards*** to start earning more points and Stars when you order on the Starbucks app!'
+                  'Sip your way toward your next adventure when you link your Starbucks® Rewards and Aeroplan® accounts.'
                 }
               />
             </div>
           </div>
           <div className={styles['inner-content-image']}>
-            <img className={styles['main-img']} />
-          </div>
-        </div>
-      </div>
-      <div className={styles['content-inner']}>
-        <div className={styles['content-flex']}>
-          <div className={styles['inner-content-image']}>
-            <img className={styles['main-img']} />
-          </div>
-          <div className={styles['inner-content-description']}>
-            <div className={styles['inner-content-container']}>
-              <MainTextBox
-                span={'Uplifting women and girls'}
-                description={
-                  'Since 2018, The Starbucks Foundation has supported 250,000 women and girls through investments in coffee and tea growing regions. But our work isn’t stopping there.'
-                }
-              />
-            </div>
+            <img
+              className={styles['main-img']}
+              src=".././public/143-77403.jpeg"
+            />
           </div>
         </div>
       </div>
