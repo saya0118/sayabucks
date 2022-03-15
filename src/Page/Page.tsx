@@ -8,7 +8,7 @@ export const Page = () => {
       <div className={styles['content-inner']}>
         <div className={styles['content-flex']}>
           <div className={styles['inner-content-image']}>
-            <img className={styles['main-img']} src="/public/143-77231.jpeg" />
+            <img className={styles['main-img']} src="/143-77231.jpeg" />
           </div>
           <div className={styles['inner-content-description']}>
             <div className={styles['inner-content-container']}>
@@ -33,14 +33,14 @@ export const Page = () => {
             </div>
           </div>
           <div className={styles['inner-content-image']}>
-            <img className={styles['main-img']} src="/public/143-77232.jpeg" />
+            <img className={styles['main-img']} src="/143-77232.jpeg" />
           </div>
         </div>
       </div>
       <div className={styles['content-inner']}>
         <div className={styles['content-flex']}>
           <div className={styles['inner-content-image']}>
-            <img className={styles['main-img']} src="/public/143-77233.jpeg" />
+            <img className={styles['main-img']} src="/143-77233.jpeg" />
           </div>
           <div className={styles['inner-content-description']}>
             <div className={styles['inner-content-container']}>
@@ -58,10 +58,7 @@ export const Page = () => {
         <div className={styles['content-flex']}>
           <div className={styles['content-colum']}>
             <div className={styles['inner-content-image']}>
-              <img
-                className={styles['main-img']}
-                src="/public/143-77235.jpeg"
-              />
+              <img className={styles['main-img']} src="/143-77235.jpeg" />
             </div>
             <div className={styles['inner-content-description']}>
               <div className={styles['inner-content-container']}>
@@ -76,10 +73,7 @@ export const Page = () => {
           </div>
           <div className={styles['content-colum']}>
             <div className={styles['inner-content-image']}>
-              <img
-                className={styles['main-img']}
-                src="/public/143-77236.jpeg"
-              />
+              <img className={styles['main-img']} src="/143-77236.jpeg" />
             </div>
             <div className={styles['inner-content-description']}>
               <div className={styles['inner-content-container']}>
@@ -107,7 +101,7 @@ export const Page = () => {
             </div>
           </div>
           <div className={styles['inner-content-image']}>
-            <img className={styles['main-img']} src="/public/143-77403.jpeg" />
+            <img className={styles['main-img']} src="/143-77403.jpeg" />
           </div>
         </div>
       </div>
