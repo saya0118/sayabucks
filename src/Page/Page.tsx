@@ -36,10 +36,7 @@ export const Page = () => {
             </div>
           </div>
           <div className={styles['inner-content-image']}>
-            <img
-              className={styles['main-img']}
-              src=".././public/143-77232.jpeg"
-            />
+            <img className={styles['main-img']} src="/public/143-77232.jpeg" />
           </div>
         </div>
       </div>
