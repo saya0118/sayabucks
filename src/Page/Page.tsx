@@ -5,7 +5,9 @@ import { MainTextBox } from '../MainTextBox';
 export const Page = () => {
   return (
     <div className={styles.main}>
-      <div className={styles['content-inner']}>
+      <div
+        className={`${styles['content-inner']} ${styles['height-short']} ${styles['background-green']}`}
+      >
         <div className={styles['content-flex']}>
           <div className={styles['inner-content-image']}>
             <img className={styles['main-img']} src="/143-77231.jpeg" />
@@ -20,7 +22,9 @@ export const Page = () => {
           </div>
         </div>
       </div>
-      <div className={styles['content-inner']}>
+      <div
+        className={`${styles['content-inner']} ${styles['background-green']}`}
+      >
         <div className={styles['content-flex']}>
           <div className={styles['inner-content-description']}>
             <div className={styles['inner-content-container']}>
@@ -37,7 +41,9 @@ export const Page = () => {
           </div>
         </div>
       </div>
-      <div className={styles['content-inner']}>
+      <div
+        className={`${styles['content-inner']} ${styles['background-green']}`}
+      >
         <div className={styles['content-flex']}>
           <div className={styles['inner-content-image']}>
             <img className={styles['main-img']} src="/143-77233.jpeg" />
@@ -54,13 +60,15 @@ export const Page = () => {
           </div>
         </div>
       </div>
-      <div className={styles['content-inner']}>
+      <div
+        className={`${styles['content-inner']} ${styles['background-mint']}`}
+      >
         <div className={styles['content-flex']}>
           <div className={styles['content-colum']}>
-            <div className={styles['inner-content-image']}>
+            <div className={styles['content-colum-image']}>
               <img className={styles['main-img']} src="/143-77235.jpeg" />
             </div>
-            <div className={styles['inner-content-description']}>
+            <div className={styles['content-colum-description']}>
               <div className={styles['inner-content-container']}>
                 <MainTextBox
                   span={'Your favorites. Your way.'}
@@ -72,10 +80,10 @@ export const Page = () => {
             </div>
           </div>
           <div className={styles['content-colum']}>
-            <div className={styles['inner-content-image']}>
+            <div className={styles['content-colum-image']}>
               <img className={styles['main-img']} src="/143-77236.jpeg" />
             </div>
-            <div className={styles['inner-content-description']}>
+            <div className={styles['content-colum-description']}>
               <div className={styles['inner-content-container']}>
                 <MainTextBox
                   span={'A good day, on its way'}
@@ -88,7 +96,9 @@ export const Page = () => {
           </div>
         </div>
       </div>
-      <div className={styles['content-inner']}>
+      <div
+        className={`${styles['content-inner']} ${styles['background-mint']}`}
+      >
         <div className={styles['content-flex']}>
           <div className={styles['inner-content-description']}>
             <div className={styles['inner-content-container']}>
