@@ -4,8 +4,29 @@
 
 .content-inner {
   max-width: 1440px;
-  margin: 3.2rem auto;
+  margin: 1.2rem auto;
   justify-content: center;
+}
+
+.background-mint {
+  background-color: var(--main-bg-mint);
+}
+
+.background-green {
+  background-color: var(--main-bg-black);
+}
+
+.font-green {
+  color: var(--main-bg-black);
+}
+
+.font-white {
+  color: var(--main-white);
+}
+
+.height-short {
+  height: 191.19px;
+  align-items: center;
 }
 
 .content-flex {
@@ -25,6 +46,16 @@
 .inner-content-description {
   width: 50%;
   text-align: center;
-  background-color: var(--main-bg-black);
-  color: var(--main-white);
+  padding: 32px 24px;
+}
+
+.content-colum-image {
+  justify-content: center;
+  width: 100%;
+}
+
+.content-colum-description {
+  width: 100%;
+  text-align: center;
+  padding: 32px 24px;
 }
