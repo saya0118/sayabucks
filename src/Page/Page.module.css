@@ -16,6 +16,14 @@
   background-color: var(--main-bg-black);
 }
 
+.font-green {
+  color: var(--main-bg-black);
+}
+
+.font-white {
+  color: var(--main-white);
+}
+
 .height-short {
   height: 191.19px;
   align-items: center;
@@ -38,7 +46,6 @@
 .inner-content-description {
   width: 50%;
   text-align: center;
-  color: var(--main-white);
   padding: 32px 24px;
 }
 
@@ -50,6 +57,5 @@
 .content-colum-description {
   width: 100%;
   text-align: center;
-  color: var(--main-white);
   padding: 32px 24px;
 }
