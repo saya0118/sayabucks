@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './MainTextBox.module.css';
-// import { Button } from '../Button';
 
 type MainTextBoxProps = {
   span: string;
