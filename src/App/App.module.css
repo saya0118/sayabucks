@@ -15,9 +15,11 @@
   --main-bg-beige: rgb(244 243 238);
   --main-white: rgb(255 255 255);
   --main-text-black: rgb(30 57 50);
+  --list-color-gray: rgb(160 160 160);
+  --icon-background-hover: rgb(231 231 231);
 
   margin: 0;
   padding: 0;
-  font-family: SoDoSans, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 19px;
 }
