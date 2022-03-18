@@ -10,6 +10,11 @@
   font-weight: 600;
 }
 
+.green:hover {
+  cursor: pointer;
+  background-color: var(--green-button-hover-color);
+}
+
 .mint {
   margin: 32px 0 0;
   padding: 7px 16px;
@@ -20,6 +25,11 @@
   min-height: 35px;
   font-size: 14px;
   font-weight: 600;
+}
+
+.mint:hover {
+  cursor: pointer;
+  background-color: var(--mint-button-hover-color);
 }
 
 .white {

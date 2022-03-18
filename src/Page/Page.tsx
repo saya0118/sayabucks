@@ -9,17 +9,23 @@ export const Page = () => {
       <div
         className={`${styles['content-inner']} ${styles['height-short']} ${styles['background-green']}`}
       >
-        <div className={styles['content-flex']}>
-          <div className={styles['inner-content-image']}>
+        <div className={styles.split}>
+          <div
+            className={`${styles['inner-content-image']} ${styles['split-item']}`}
+          >
             <img className={styles['main-img']} src="/143-77231.jpeg" />
           </div>
-          <div className={styles['inner-content-description']}>
+          <div
+            className={`${styles['inner-content-description']} ${styles['split-item']}`}
+          >
             <div
               className={`${styles['inner-content-container']} ${styles['font-white']}`}
             >
               <MainTextBox
                 span={'Free faves are at your fingertips*'}
+                titleSize={'font-mid'}
                 description={''}
+                descriptionSize={''}
               />
               <Button className="green" text="Join Starbucks® Rewards" />
             </div>
@@ -27,54 +33,62 @@ export const Page = () => {
         </div>
       </div>
       <div
-        className={`${styles['content-inner']} ${styles['background-green']}`}
+        className={`${styles['content-inner']} ${styles['background-green']} ${styles['.split']}`}
       >
-        <div className={styles['content-flex']}>
-          <div className={styles['inner-content-description']}>
-            <div
-              className={`${styles['inner-content-container']} ${styles['font-white']}`}
-            >
-              <MainTextBox
-                span={'Iced shaken awakening'}
-                description={
-                  'Introducing our new Iced Toasted Vanilla Oat Shaken Espresso with rich, creamy layers and nondairy goodness.'
-                }
-              />
-              <Button className="green" text="Order now" />
-            </div>
+        <div
+          className={`${styles['inner-content-description']} ${styles['split-item']}`}
+        >
+          <div
+            className={`${styles['inner-content-container']} ${styles['font-white']}`}
+          >
+            <MainTextBox
+              span={'Iced shaken awakening'}
+              titleSize={'font-lg'}
+              description={
+                'Introducing our new Iced Toasted Vanilla Oat Shaken Espresso with rich, creamy layers and nondairy goodness.'
+              }
+              descriptionSize={'font-mid'}
+            />
+            <Button className="green" text="Order now" />
           </div>
-          <div className={styles['inner-content-image']}>
-            <img className={styles['main-img']} src="/143-77232.jpeg" />
-          </div>
+        </div>
+        <div
+          className={`${styles['inner-content-image']} ${styles['split-item']}`}
+        >
+          <img className={styles['main-img']} src="/143-77232.jpeg" />
         </div>
       </div>
       <div
-        className={`${styles['content-inner']} ${styles['background-green']}`}
+        className={`${styles['content-inner']} ${styles['background-green']} ${styles['.split']}`}
       >
-        <div className={styles['content-flex']}>
-          <div className={styles['inner-content-image']}>
-            <img className={styles['main-img']} src="/143-77233.jpeg" />
-          </div>
-          <div className={styles['inner-content-description']}>
-            <div
-              className={`${styles['inner-content-container']} ${styles['font-white']}`}
-            >
-              <MainTextBox
-                span={'Cheerfully chill'}
-                description={
-                  'Enjoy Strawberry Coconut Drink and Dragon Drink’s vibrant, fruity flavours with coconut beverage.'
-                }
-              />
-              <Button className="green" text="Order now" />
-            </div>
+        <div
+          className={`${styles['inner-content-image']} ${styles['split-item']}`}
+        >
+          <img className={styles['main-img']} src="/143-77233.jpeg" />
+        </div>
+        <div
+          className={`${styles['inner-content-description']} ${styles['split-item']}`}
+        >
+          <div
+            className={`${styles['inner-content-container']} ${styles['font-white']}`}
+          >
+            <MainTextBox
+              span={'Cheerfully chill'}
+              titleSize={'font-lg'}
+              description={
+                'Enjoy Strawberry Coconut Drink and Dragon Drink’s vibrant, fruity flavours with coconut beverage.'
+              }
+              descriptionSize={'font-mid'}
+            />
+            <Button className="green" text="Order now" />
           </div>
         </div>
       </div>
-      <div
-        className={`${styles['content-inner']} ${styles['background-mint']}`}
-      >
-        <div className={styles['content-flex']}>
-          <div className={styles['content-colum']}>
+      <div className={`${styles['content-colum']} ${styles['.split']}`}>
+        <div className={styles['split-item']}>
+          <div
+            className={`${styles['content-colum-inner-left']} ${styles['background-mint']}`}
+          >
             <div className={styles['content-colum-image']}>
               <img className={styles['main-img']} src="/143-77235.jpeg" />
             </div>
@@ -83,16 +97,22 @@ export const Page = () => {
                 className={`${styles['inner-content-container']} ${styles['font-green']}`}
               >
                 <MainTextBox
+                  titleSize={'font-mid'}
                   span={'Your favorites. Your way.'}
                   description={
                     'Download the app to customize your drink, order ahead and earn Rewards.*'
                   }
+                  descriptionSize={'font-sml'}
                 />
                 <Button className="mint" text="Download the app" />
               </div>
             </div>
           </div>
-          <div className={styles['content-colum']}>
+        </div>
+        <div className={styles['split-item']}>
+          <div
+            className={`${styles['content-colum-inner-right']} ${styles['background-mint']}`}
+          >
             <div className={styles['content-colum-image']}>
               <img className={styles['main-img']} src="/143-77236.jpeg" />
             </div>
@@ -102,9 +122,11 @@ export const Page = () => {
               >
                 <MainTextBox
                   span={'A good day, on its way'}
+                  titleSize={'font-mid'}
                   description={
                     'Get your favourites delivered with $3 off your order of $20 on Uber Eats thru 3/27.**'
                   }
+                  descriptionSize={'font-sml'}
                 />
                 <Button className="mint" text="Order now" />
               </div>
@@ -113,25 +135,29 @@ export const Page = () => {
         </div>
       </div>
       <div
-        className={`${styles['content-inner']} ${styles['background-mint']}`}
+        className={`${styles['content-inner']} ${styles['background-mint']} ${styles['.split']}`}
       >
-        <div className={styles['content-flex']}>
-          <div className={styles['inner-content-description']}>
-            <div
-              className={`${styles['inner-content-container']} ${styles['font-green']}`}
-            >
-              <MainTextBox
-                span={'Link. Order. Sip. Repeat'}
-                description={
-                  'Sip your way toward your next adventure when you link your Starbucks® Rewards and Aeroplan® accounts.'
-                }
-              />
-              <Button className="mint" text="Get started" />
-            </div>
+        <div
+          className={`${styles['inner-content-description']} ${styles['split-item']}`}
+        >
+          <div
+            className={`${styles['inner-content-container']} ${styles['font-green']}`}
+          >
+            <MainTextBox
+              span={'Link. Order. Sip. Repeat'}
+              titleSize={'font-mid'}
+              description={
+                'Sip your way toward your next adventure when you link your Starbucks® Rewards and Aeroplan® accounts.'
+              }
+              descriptionSize={'font-sml'}
+            />
+            <Button className="mint" text="Get started" />
           </div>
-          <div className={styles['inner-content-image']}>
-            <img className={styles['main-img']} src="/143-77403.jpeg" />
-          </div>
+        </div>
+        <div
+          className={`${styles['inner-content-image']} ${styles['split-item']}`}
+        >
+          <img className={styles['main-img']} src="/143-77403.jpeg" />
         </div>
       </div>
     </div>

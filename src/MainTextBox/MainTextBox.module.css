@@ -1,3 +1,15 @@
 .title {
   margin: 0 0 24px;
 }
+
+.font-sml {
+  font-size: 19px;
+}
+
+.font-mid {
+  font-size: 24px;
+}
+
+.font-lg {
+  font-size: 50px;
+}
