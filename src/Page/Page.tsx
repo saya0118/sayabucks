@@ -160,6 +160,29 @@ export const Page = () => {
           <img className={styles['main-img']} src="/143-77403.jpeg" />
         </div>
       </div>
+      <div className={styles['content-inner']}>
+        <div className={styles.single}>
+          <span>
+            *At participating stores. Some restrictions apply. See&nbsp;
+            <a className={styles.link} href="http://starbucks.ca/rewards">
+              http://starbucks.ca/rewards
+            </a>
+            &nbsp;for details.
+          </span>
+        </div>
+        <div className={styles.double}>
+          <p className={styles.text}>
+            **For a limited time, enjoy $3 off on your Starbucks orders of $20
+            or more on Uber Eats. Excludes Uber One members. Restrictions and
+            other taxes/fees apply. See Uber Eats app for details and location
+            availability. Fees subject to change. Menu limited. Restricted
+            delivery area. Available at participating locations only. Prices for
+            Starbucks® items purchased through Uber eats may be higher than as
+            marked or posted in stores. May not be combined with other offers,
+            discounts, or promotions.
+          </p>
+        </div>
+      </div>
     </div>
   );
 };
