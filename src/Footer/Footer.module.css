@@ -1,0 +1,96 @@
+.footer {
+  padding: 24px 0;
+}
+
+.footer-container {
+  padding: 0 40px;
+}
+
+.footer-top {
+  display: flex;
+  border-bottom: 1.5px solid var(--header-under-bar-color);
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 200;
+  margin-left: 40px;
+}
+
+ul {
+  list-style: none;
+  width: 100%;
+}
+
+.footer-list {
+  font-size: 16px;
+  color: var(--list-color-gray);
+  margin: 0 0 8px;
+  padding: 8px 0;
+  width: 180px;
+}
+
+.footer-list:hover {
+  cursor: pointer;
+  color: black;
+}
+
+.footer-list-flex {
+  display: flex;
+  margin-top: 24px;
+}
+
+.footer-list-icon {
+  margin: 0 13px 0 0;
+}
+
+.icon:hover {
+  cursor: pointer;
+  background: var(--icon-background-hover);
+  transition: 0.2s;
+  border-radius: 50%;
+}
+
+/* .icon::after {
+  content: '';
+  width: 40px;
+  height: 40px;
+  background-color: var(--icon-background-hover);
+  z-index: 50;
+} */
+
+.list {
+  font-size: 16px;
+}
+
+.list:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.padding-right {
+  padding: 0 16px 0 0;
+}
+
+.padding-both {
+  padding: 0 16px;
+}
+
+.language-box {
+  padding: 0 0 0 40px;
+}
+
+.language {
+  font-size: 16px;
+  color: var(--primary-background-color-green);
+  font-weight: 600;
+}
+
+.language:hover {
+  cursor: pointer;
+}
+
+.copyright {
+  font-size: 14px;
+  padding: 0 0 0 40px;
+}
