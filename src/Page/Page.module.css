@@ -1,5 +1,6 @@
 .main {
   width: 100%;
+  border-bottom: 1.5px solid var(--header-under-bar-color);
 }
 
 .content-inner {
@@ -38,9 +39,6 @@
   align-items: center;
 }
 
-.inner-content-image {
-}
-
 .main-img {
   display: block;
   width: 100%;
@@ -71,4 +69,34 @@
 .content-colum-description {
   text-align: center;
   padding: 32px 48px;
+}
+
+.single {
+  font-size: 14px;
+  padding: 32px 23%;
+  justify-content: center;
+  text-align: center;
+  line-height: 26px;
+}
+
+.double {
+  font-size: 14px;
+  padding: 32px 23%;
+  justify-content: center;
+}
+
+.link {
+  color: black;
+  font-size: 14px;
+}
+
+.link:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.text {
+  padding: 0 40px;
+  text-align: center;
+  line-height: 26px;
 }
