@@ -32,7 +32,7 @@ export const Footer = () => {
               </li>
             </ul>
           </div>
-          <div>
+          <div className={styles['ul-margin']}>
             <h1 className={styles.title}>Careers</h1>
             <ul>
               <li className={styles['footer-list']}>
@@ -52,7 +52,7 @@ export const Footer = () => {
               </li>
             </ul>
           </div>
-          <div>
+          <div className={styles['ul-margin']}>
             <h1 className={styles.title}>Social Impact</h1>
             <ul>
               <li className={styles['footer-list']}>
@@ -69,7 +69,7 @@ export const Footer = () => {
               </li>
             </ul>
           </div>
-          <div>
+          <div className={styles['ul-margin']}>
             <h1 className={styles.title}>For Business Partners</h1>
             <ul>
               <li className={styles['footer-list']}>
@@ -80,7 +80,7 @@ export const Footer = () => {
               </li>
             </ul>
           </div>
-          <div>
+          <div className={styles['ul-margin']}>
             <h1 className={styles.title}>Order and pickup</h1>
             <ul>
               <li className={styles['footer-list']}>
@@ -135,7 +135,8 @@ export const Footer = () => {
             <a className={styles.language}>Passer au site français</a>
           </p>
           <p className={styles.copyright}>
-            © 2022 Starbucks Coffee Company. All rights reserved.
+            © 2022 This is not related to Starbucks Coffee Company. This is just
+            personal project.
           </p>
         </div>
       </div>

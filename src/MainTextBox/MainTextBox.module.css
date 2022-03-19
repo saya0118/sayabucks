@@ -13,3 +13,21 @@
 .font-lg {
   font-size: 50px;
 }
+
+@media (max-width: 800px) {
+  .title {
+    margin: 0 0 24px;
+  }
+
+  .font-sml {
+    font-size: 16px;
+  }
+
+  .font-mid {
+    font-size: 22px;
+  }
+
+  .font-lg {
+    font-size: 28px;
+  }
+}

@@ -85,7 +85,9 @@ export const Page = () => {
         </div>
       </div>
       <div className={`${styles['content-colum']} ${styles['.split']}`}>
-        <div className={styles['split-item']}>
+        <div
+          className={`${styles['split-item']} ${styles['responsive-split']}`}
+        >
           <div
             className={`${styles['content-colum-inner-left']} ${styles['background-mint']}`}
           >
@@ -109,7 +111,9 @@ export const Page = () => {
             </div>
           </div>
         </div>
-        <div className={styles['split-item']}>
+        <div
+          className={`${styles['split-item']} ${styles['responsive-split']}`}
+        >
           <div
             className={`${styles['content-colum-inner-right']} ${styles['background-mint']}`}
           >
