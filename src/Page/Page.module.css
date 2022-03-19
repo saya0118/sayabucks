@@ -5,7 +5,7 @@
 
 .content-inner {
   max-width: 1440px;
-  margin: 1.2rem auto;
+  margin: 1.5rem auto;
 }
 
 .split {
@@ -100,4 +100,57 @@
   padding: 0 40px;
   text-align: center;
   line-height: 26px;
+}
+
+@media (max-width: 800px) {
+  .split {
+    display: initial;
+    width: 100%;
+  }
+
+  .split-item {
+    display: initial;
+    width: 50%;
+    vertical-align: middle;
+  }
+
+  .responsive-split {
+    margin: 1.5rem auto;
+  }
+
+  .inner-content-container {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  .content-colum {
+    margin: 1.2rem auto;
+  }
+
+  .content-colum-inner-left {
+    margin-right: 0;
+  }
+
+  .content-colum-inner-right {
+    margin-left: 0;
+  }
+
+  .single {
+    font-size: 14px;
+    padding: 32px 10%;
+    justify-content: center;
+    text-align: center;
+    line-height: 26px;
+  }
+
+  .double {
+    font-size: 14px;
+    padding: 32px 10%;
+    justify-content: center;
+  }
+
+  .text {
+    text-align: center;
+    line-height: 26px;
+  }
 }
