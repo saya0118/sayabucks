@@ -118,15 +118,15 @@ export const Footer = () => {
               </li>
             </ul>
           </div>
-          <ul className={styles['footer-list-flex']}>
+          <ul className={styles['footer-flex']}>
             <li className={`${styles.list} ${styles['padding-right']}`}>
               <a>Privacy Statement</a>
             </li>
-            <span>|</span>
+            <span className={styles.line}>|</span>
             <li className={`${styles.list} ${styles['padding-both']}`}>
               <a>Terms of Use</a>
             </li>
-            <span>|</span>
+            <span className={styles.line}>|</span>
             <li className={`${styles.list} ${styles['padding-both']}`}>
               <a>Partners</a>
             </li>

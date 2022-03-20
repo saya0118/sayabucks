@@ -45,6 +45,11 @@ ul {
   margin-top: 24px;
 }
 
+.footer-flex {
+  display: flex;
+  margin-top: 24px;
+}
+
 .footer-list-icon {
   margin: 0 13px 0 0;
 }
@@ -98,4 +103,40 @@ ul {
 }
 
 @media (max-width: 1025px) {
+  .footer-top {
+    display: initial;
+  }
+
+  .title {
+    margin-bottom: 16px;
+    padding: 8px 0;
+    font-size: 16px;
+    height: 40px;
+  }
+
+  .ul-margin {
+    margin-left: initial;
+  }
+
+  .footer-list {
+    display: none;
+  }
+
+  .footer-flex {
+    display: initial;
+  }
+
+  .list {
+    padding: 8px 0;
+    margin-bottom: 4px;
+    font-size: 14px;
+  }
+
+  .line {
+    display: none;
+  }
+
+  .language {
+    font-size: 14px;
+  }
 }
