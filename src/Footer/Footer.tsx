@@ -6,15 +6,20 @@ import logoFacebook from '/svgexport-6.svg';
 import logoInstagram from '/svgexport-7.svg';
 // eslint-disable-next-line import/no-unresolved
 import logoTwitter from '/svgexport-8.svg';
+// eslint-disable-next-line import/no-unresolved
+import logoArrow from '/svgexport-5.svg';
 
 export const Footer = () => {
   return (
     <div className={styles.footer}>
       <div className={styles['footer-container']}>
         <div className={styles['footer-top']}>
-          <div>
+          <div className={styles['flex-box']}>
             <h1 className={styles.title}>About Starbucks</h1>
-            <ul>
+            <button className={styles['arrow-btn']}>
+              <img className={styles['arrow-img']} src={logoArrow} />
+            </button>
+            <ul className={styles['list-ul']}>
               <li className={styles['footer-list']}>
                 <a>Our Company</a>
               </li>
@@ -32,9 +37,12 @@ export const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className={styles['ul-margin']}>
+          <div className={`${styles['ul-margin']} ${styles['flex-box']}`}>
             <h1 className={styles.title}>Careers</h1>
-            <ul>
+            <button className={styles['arrow-btn']}>
+              <img className={styles['arrow-img']} src={logoArrow} />
+            </button>
+            <ul className={styles['list-ul']}>
               <li className={styles['footer-list']}>
                 <a>Culture and Values</a>
               </li>
@@ -52,9 +60,12 @@ export const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className={styles['ul-margin']}>
+          <div className={`${styles['ul-margin']} ${styles['flex-box']}`}>
             <h1 className={styles.title}>Social Impact</h1>
-            <ul>
+            <button className={styles['arrow-btn']}>
+              <img className={styles['arrow-img']} src={logoArrow} />
+            </button>
+            <ul className={styles['list-ul']}>
               <li className={styles['footer-list']}>
                 <a>Overview</a>
               </li>
@@ -69,9 +80,12 @@ export const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className={styles['ul-margin']}>
+          <div className={`${styles['ul-margin']} ${styles['flex-box']}`}>
             <h1 className={styles.title}>For Business Partners</h1>
-            <ul>
+            <button className={styles['arrow-btn']}>
+              <img className={styles['arrow-img']} src={logoArrow} />
+            </button>
+            <ul className={styles['list-ul']}>
               <li className={styles['footer-list']}>
                 <a>Corporate Gift Card Sales</a>
               </li>
@@ -80,9 +94,12 @@ export const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className={styles['ul-margin']}>
+          <div className={`${styles['ul-margin']} ${styles['flex-box']}`}>
             <h1 className={styles.title}>Order and pickup</h1>
-            <ul>
+            <button className={styles['arrow-btn']}>
+              <img className={styles['arrow-img']} src={logoArrow} />
+            </button>
+            <ul className={styles['list-ul']}>
               <li className={styles['footer-list']}>
                 <a>Order on the App</a>
               </li>
