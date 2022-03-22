@@ -138,14 +138,14 @@ ul {
     padding: 0;
   }
 
-  .arrow-btn:hover{
+  .arrow-btn:hover {
     cursor: pointer;
     background-color: var(--icon-background-hover);
-    transition: .3s;
+    transition: 0.3s;
     border-radius: 90px;
   }
 
-  .arrow-img{
+  .arrow-img {
     width: 32px;
     height: 32px;
   }
