@@ -9,7 +9,7 @@
 }
 
 .split {
-  display: table;
+  display: flex;
   width: 100%;
 }
 
@@ -33,10 +33,6 @@
 
 .font-white {
   color: var(--main-white);
-}
-
-.height-short {
-  align-items: center;
 }
 
 .main-img {
