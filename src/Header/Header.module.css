@@ -132,16 +132,19 @@
 
   .menu-btn {
     /* position: fixed; */
+
     /* display: flex; */
+
     height: 44px;
     width: 44px;
     z-index: 90;
   }
 
   .menu-btn span,
-  .menu-btn span:before,
-  .menu-btn span:after {
-    content: '';
+  .menu-btn span::before,
+  .menu-btn span::after {
+    content: " ";
+
     /* display: block; */
     height: 2px;
     width: 20px;
@@ -150,11 +153,11 @@
     position: absolute;
   }
 
-  .menu-btn span:before {
+  .menu-btn span::before {
     bottom: 6px;
   }
 
-  .menu-btn span:after {
+  .menu-btn span::after {
     top: 6px;
   }
 }

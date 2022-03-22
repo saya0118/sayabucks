@@ -7,34 +7,37 @@ export const Page = () => {
   return (
     <div className={styles.main}>
       <div
-        className={`${styles['content-inner']} ${styles['height-short']} ${styles['background-green']}`}
+        className={`${styles['content-inner']} ${styles['.split']} ${styles['background-green']}`}
       >
-        <div className={styles.split}>
+        <div
+          className={`${styles['inner-content-image']} ${styles['split-item']}`}
+        >
+          <img className={styles['main-img']} src="/143-77231.jpeg" />
+        </div>
+        <div
+          className={`${styles['inner-content-description']} ${styles['split-item']}`}
+        >
           <div
-            className={`${styles['inner-content-image']} ${styles['split-item']}`}
+            className={`${styles['inner-content-container']} ${styles['font-white']}`}
           >
-            <img className={styles['main-img']} src="/143-77231.jpeg" />
-          </div>
-          <div
-            className={`${styles['inner-content-description']} ${styles['split-item']}`}
-          >
-            <div
-              className={`${styles['inner-content-container']} ${styles['font-white']}`}
-            >
-              <MainTextBox
-                span={'Free faves are at your fingertips*'}
-                titleSize={'font-mid'}
-                description={''}
-                descriptionSize={''}
-              />
-              <Button className="green" text="Join Starbucks® Rewards" />
-            </div>
+            <MainTextBox
+              span={'Free faves are at your fingertips*'}
+              titleSize={'font-mid'}
+              description={''}
+              descriptionSize={''}
+            />
+            <Button className="green" text="Join Starbucks® Rewards" />
           </div>
         </div>
       </div>
       <div
         className={`${styles['content-inner']} ${styles['background-green']} ${styles['.split']}`}
       >
+        <div
+          className={`${styles['inner-content-image']} ${styles['split-item']}`}
+        >
+          <img className={styles['main-img']} src="/143-77232.jpeg" />
+        </div>
         <div
           className={`${styles['inner-content-description']} ${styles['split-item']}`}
         >
@@ -51,11 +54,6 @@ export const Page = () => {
             />
             <Button className="green" text="Order now" />
           </div>
-        </div>
-        <div
-          className={`${styles['inner-content-image']} ${styles['split-item']}`}
-        >
-          <img className={styles['main-img']} src="/143-77232.jpeg" />
         </div>
       </div>
       <div
@@ -139,8 +137,13 @@ export const Page = () => {
         </div>
       </div>
       <div
-        className={`${styles['content-inner']} ${styles['background-mint']} ${styles['.split']}`}
+        className={`${styles['content-inner']} ${styles['background-mint']} ${styles['.split']} ${styles['row-reverse']}`}
       >
+        <div
+          className={`${styles['inner-content-image']} ${styles['split-item']}`}
+        >
+          <img className={styles['main-img']} src="/143-77403.jpeg" />
+        </div>
         <div
           className={`${styles['inner-content-description']} ${styles['split-item']}`}
         >
@@ -157,11 +160,6 @@ export const Page = () => {
             />
             <Button className="mint" text="Get started" />
           </div>
-        </div>
-        <div
-          className={`${styles['inner-content-image']} ${styles['split-item']}`}
-        >
-          <img className={styles['main-img']} src="/143-77403.jpeg" />
         </div>
       </div>
       <div className={styles['content-inner']}>
