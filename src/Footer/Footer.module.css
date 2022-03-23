@@ -26,6 +26,10 @@
   display: none;
 }
 
+.acd-check {
+  display: none;
+}
+
 ul {
   list-style: none;
   width: 100%;
@@ -123,13 +127,14 @@ ul {
     height: 40px;
   }
 
-  .flex-box {
+  .arr-btn-right {
     display: flex;
     justify-content: space-between;
+    height: 76px;
   }
 
   .arrow-btn {
-    display: initial;
+    display: block;
     border: none;
     background-color: #fff;
     width: 44px;
@@ -154,8 +159,19 @@ ul {
     margin-left: initial;
   }
 
-  .list-ul {
-    display: none;
+  .acd-content {
+    height: 0;
+    opacity: 0;
+    padding: 0 10px;
+    transition: 0.5s;
+    visibility: hidden;
+  }
+
+  .acd-check:checked + .arrow-btn + .acd-content {
+    height: 200px;
+    opacity: 1;
+    padding: 10px;
+    visibility: visible;
   }
 
   .footer-flex {

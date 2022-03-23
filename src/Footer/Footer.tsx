@@ -15,11 +15,21 @@ export const Footer = () => {
       <div className={styles['footer-container']}>
         <div className={styles['footer-top']}>
           <div className={styles['flex-box']}>
-            <h1 className={styles.title}>About Starbucks</h1>
-            <button className={styles['arrow-btn']}>
-              <img className={styles['arrow-img']} src={logoArrow} />
-            </button>
-            <ul className={styles['list-ul']}>
+            <div className={styles['arr-btn-right']}>
+              <h1 className={styles.title}>About Starbucks</h1>
+              <input
+                id="acd-check1"
+                className={styles['acd-check']}
+                type="checkbox"
+              />
+              <label
+                htmlFor="acd-check1"
+                className={`${styles['arrow-btn']} ${styles['acd-label']}`}
+              >
+                <img className={styles['arrow-img']} src={logoArrow} />
+              </label>
+            </div>
+            <ul className={`${styles['list-ul']} ${styles['acd-content']}`}>
               <li className={styles['footer-list']}>
                 <a>Our Company</a>
               </li>
