@@ -9,7 +9,7 @@
 }
 
 .footer-top {
-  display: flex;
+  display: initial;
   border-bottom: 1.5px solid var(--header-under-bar-color);
 }
 
@@ -127,10 +127,15 @@ ul {
     height: 40px;
   }
 
+  .flex-box {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+  }
+
   .arr-btn-right {
     display: flex;
     justify-content: space-between;
-    height: 76px;
   }
 
   .arrow-btn {
@@ -139,7 +144,6 @@ ul {
     background-color: #fff;
     width: 44px;
     height: 44px;
-    align-items: center;
     padding: 0;
   }
 
@@ -156,21 +160,22 @@ ul {
   }
 
   .ul-margin {
-    margin-left: initial;
+    margin-left: 0;
   }
 
   .acd-content {
     height: 0;
     opacity: 0;
-    padding: 0 10px;
-    transition: 0.5s;
+    padding: 0;
+    margin: 0;
+    transition: 0.3s;
     visibility: hidden;
+    transform: ease-in-out;
   }
 
   .acd-check:checked + .arrow-btn + .acd-content {
     height: 200px;
     opacity: 1;
-    padding: 10px;
     visibility: visible;
   }
 
