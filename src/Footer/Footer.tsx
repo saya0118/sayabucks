@@ -15,20 +15,18 @@ export const Footer = () => {
       <div className={styles['footer-container']}>
         <div className={styles['footer-top']}>
           <div className={styles['flex-box']}>
-            <div className={styles['arr-btn-right']}>
-              <h1 className={styles.title}>About Starbucks</h1>
-              <input
-                id="acd-check1"
-                className={styles['acd-check']}
-                type="checkbox"
-              />
-              <label
-                htmlFor="acd-check1"
-                className={`${styles['arrow-btn']} ${styles['acd-label']}`}
-              >
-                <img className={styles['arrow-img']} src={logoArrow} />
-              </label>
-            </div>
+            <h1 className={styles.title}>About Starbucks</h1>
+            <input
+              id="acd-check1"
+              className={styles['acd-check']}
+              type="checkbox"
+            />
+            <label
+              htmlFor="acd-check1"
+              className={`${styles['arrow-btn']} ${styles['acd-label']}`}
+            >
+              <img className={styles['arrow-img']} src={logoArrow} />
+            </label>
             <ul className={`${styles['list-ul']} ${styles['acd-content']}`}>
               <li className={styles['footer-list']}>
                 <a>Our Company</a>
@@ -49,10 +47,18 @@ export const Footer = () => {
           </div>
           <div className={`${styles['ul-margin']} ${styles['flex-box']}`}>
             <h1 className={styles.title}>Careers</h1>
-            <button className={styles['arrow-btn']}>
+            <input
+              id="acd-check2"
+              className={styles['acd-check']}
+              type="checkbox"
+            />
+            <label
+              htmlFor="acd-check2"
+              className={`${styles['arrow-btn']} ${styles['acd-label']}`}
+            >
               <img className={styles['arrow-img']} src={logoArrow} />
-            </button>
-            <ul className={styles['list-ul']}>
+            </label>
+            <ul className={`${styles['list-ul']} ${styles['acd-content']}`}>
               <li className={styles['footer-list']}>
                 <a>Culture and Values</a>
               </li>
@@ -72,10 +78,18 @@ export const Footer = () => {
           </div>
           <div className={`${styles['ul-margin']} ${styles['flex-box']}`}>
             <h1 className={styles.title}>Social Impact</h1>
-            <button className={styles['arrow-btn']}>
+            <input
+              id="acd-check3"
+              className={styles['acd-check']}
+              type="checkbox"
+            />
+            <label
+              htmlFor="acd-check3"
+              className={`${styles['arrow-btn']} ${styles['acd-label']}`}
+            >
               <img className={styles['arrow-img']} src={logoArrow} />
-            </button>
-            <ul className={styles['list-ul']}>
+            </label>
+            <ul className={`${styles['list-ul']} ${styles['acd-content']}`}>
               <li className={styles['footer-list']}>
                 <a>Overview</a>
               </li>
@@ -92,10 +106,18 @@ export const Footer = () => {
           </div>
           <div className={`${styles['ul-margin']} ${styles['flex-box']}`}>
             <h1 className={styles.title}>For Business Partners</h1>
-            <button className={styles['arrow-btn']}>
+            <input
+              id="acd-check4"
+              className={styles['acd-check']}
+              type="checkbox"
+            />
+            <label
+              htmlFor="acd-check4"
+              className={`${styles['arrow-btn']} ${styles['acd-label']}`}
+            >
               <img className={styles['arrow-img']} src={logoArrow} />
-            </button>
-            <ul className={styles['list-ul']}>
+            </label>
+            <ul className={`${styles['list-ul']} ${styles['acd-content']}`}>
               <li className={styles['footer-list']}>
                 <a>Corporate Gift Card Sales</a>
               </li>
@@ -106,10 +128,18 @@ export const Footer = () => {
           </div>
           <div className={`${styles['ul-margin']} ${styles['flex-box']}`}>
             <h1 className={styles.title}>Order and pickup</h1>
-            <button className={styles['arrow-btn']}>
+            <input
+              id="acd-check5"
+              className={styles['acd-check']}
+              type="checkbox"
+            />
+            <label
+              htmlFor="acd-check5"
+              className={`${styles['arrow-btn']} ${styles['acd-label']}`}
+            >
               <img className={styles['arrow-img']} src={logoArrow} />
-            </button>
-            <ul className={styles['list-ul']}>
+            </label>
+            <ul className={`${styles['list-ul']} ${styles['acd-content']}`}>
               <li className={styles['footer-list']}>
                 <a>Order on the App</a>
               </li>
