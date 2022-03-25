@@ -11,11 +11,10 @@ export const Header = () => {
         <div className={styles['content-container']}>
           <Logo />
           <div className={styles['hamburger-menu']}>
-            {/* <input className={styles['menu-button-check']}> */}
-            <label className={styles['menu-btn']}>
+            <input type="checkbox" id="menu-button-check" />
+            <label htmlFor="menu-button-check" className={styles['menu-btn']}>
               <span></span>
             </label>
-            {/* </input> */}
           </div>
           <div
             className={`${styles['flex-container']} ${styles['nav-items-wrapper']}`}
