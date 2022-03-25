@@ -9,7 +9,7 @@
 }
 
 .footer-top {
-  display: initial;
+  display: flex;
   border-bottom: 1.5px solid var(--header-under-bar-color);
 }
 
@@ -170,7 +170,6 @@ ul {
     margin: 0;
     transition: 0.3s;
     visibility: hidden;
-    transform: ease-in-out;
   }
 
   .acd-check:checked + .arrow-btn + .acd-content {
