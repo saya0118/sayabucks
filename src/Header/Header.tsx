@@ -3,6 +3,7 @@ import styles from './Header.module.css';
 import { Item } from '../Item';
 import { Button } from '../Button';
 import { Logo } from '../Logo';
+import { Hamburger } from '../Hamburger';
 
 export const Header = () => {
   return (
@@ -11,10 +12,7 @@ export const Header = () => {
         <div className={styles['content-container']}>
           <Logo />
           <div className={styles['hamburger-menu']}>
-            <input type="checkbox" id="menu-button-check" />
-            <label htmlFor="menu-button-check" className={styles['menu-btn']}>
-              <span></span>
-            </label>
+            <Hamburger />
           </div>
           <div
             className={`${styles['flex-container']} ${styles['nav-items-wrapper']}`}
@@ -23,17 +21,25 @@ export const Header = () => {
               <div className={styles['items-list-wrapper']}>
                 <ul className={styles['items-ul']}>
                   <li className={styles['items-list']}>
-                    <Item text="menu" url="/menu" />
+                    <Item text="menu" url="/menu" fontWeight="font-base" />
                   </li>
                   <li
                     className={`${styles['items-list']} ${styles['padding-left']}`}
                   >
-                    <Item text="rewards" url="/rewards" />
+                    <Item
+                      text="rewards"
+                      url="/rewards"
+                      fontWeight="font-base"
+                    />
                   </li>
                   <li
                     className={`${styles['items-list']} ${styles['padding-left']}`}
                   >
-                    <Item text="gift cards" url="/gift" />
+                    <Item
+                      text="gift cards"
+                      url="/gift"
+                      fontWeight="font-base"
+                    />
                   </li>
                 </ul>
               </div>
