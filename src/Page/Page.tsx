@@ -2,10 +2,12 @@ import React from 'react';
 import styles from './Page.module.css';
 import { MainTextBox } from '../MainTextBox';
 import { Button } from '../Button';
+import { SlideMenu } from '../SlideMenu';
 
 export const Page = () => {
   return (
     <div className={styles.main}>
+      <SlideMenu />
       <div
         className={`${styles['content-inner']} ${styles['.split']} ${styles['background-green']}`}
       >
