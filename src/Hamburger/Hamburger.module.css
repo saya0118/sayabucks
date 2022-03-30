@@ -10,11 +10,11 @@
 
   .bar {
     display: block;
-    width: 25px;
-    height: 3px;
-    margin: 5px auto;
+    width: 20px;
+    height: 2px;
+    margin: 4px auto;
     transition: all 0.3s ease-in-out;
-    background-color: black;
+    background-color: var(--hamburger-bar-gray);
   }
 
   .hamburger.active .bar:nth-child(2) {
