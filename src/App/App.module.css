@@ -17,6 +17,8 @@
   --main-text-black: rgb(30 57 50);
   --list-color-gray: rgb(160 160 160);
   --icon-background-hover: rgb(231 231 231);
+  --line-gray: rgb(229 229 229);
+  --hamburger-bar-gray: rgb(122 122 122);
 
   margin: 0;
   padding: 0;
