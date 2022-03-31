@@ -1,13 +1,17 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { OpenContext } from '../Context/OpenContext';
 import styles from './SlideMenu.module.css';
 import { Item } from '../Item';
 import { Button } from '../Button';
 // eslint-disable-next-line import/no-unresolved
 import logoArrow from '/svgexport-3.svg';
 
-export const SlideMenu = () => {
+export const SlideMenu: React.VFC = () => {
+  const open = useContext(OpenContext);
   return (
-    <div className={styles['menu-page']}>
+    <div
+      className={`${styles['menu-page']} ${open?.action ? 'styles.open' : ''}`}
+    >
       <nav id="nav" className={styles.nav}>
         <ul className={styles['items-ul']}>
           <li className={styles['items-list']}>
