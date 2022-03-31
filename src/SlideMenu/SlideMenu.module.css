@@ -24,7 +24,7 @@
     transition: 0.3s;
   }
 
-  .nav-menu.active {
+  .nav-menu.open {
     right: 0;
   }
 
