@@ -10,7 +10,6 @@
 
 .footer-top {
   display: flex;
-  border-bottom: 1.5px solid var(--header-under-bar-color);
 }
 
 .flex-box {
@@ -107,6 +106,12 @@ ul {
   font-size: 14px;
 }
 
+.hr {
+  margin: 16px 0px 32px;
+  border: none;
+  border-top: 2px solid var(--line-gray);
+}
+
 @media (max-width: 1400px) {
   .footer-container {
     max-width: 93%;
@@ -124,7 +129,16 @@ ul {
     margin-bottom: 16px;
     padding: 8px 0;
     font-size: 16px;
+    font-weight: 400;
     height: 40px;
+  }
+
+  .footer-link {
+    font-size: 14px;
+  }
+
+  .footer-list {
+    width: 300px;
   }
 
   .flex-box {
@@ -173,7 +187,7 @@ ul {
   }
 
   .acd-check:checked + .arrow-btn + .acd-content {
-    height: 200px;
+    height: 220px;
     opacity: 1;
     visibility: visible;
   }
