@@ -1,12 +1,14 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import styles from './Page.module.css';
+import { OpenContext } from '../Context/OpenContext';
 import { MainTextBox } from '../MainTextBox';
 import { Button } from '../Button';
 import { SlideMenu } from '../SlideMenu';
 
-export const Page = () => {
+export const Page: React.VFC = () => {
+  const open = useContext(OpenContext);
   return (
-    <div className={styles.main}>
+    <div className={`${styles.main} ${open?.action ? styles.active : ''}`}>
       <SlideMenu />
       <div
         className={`${styles['content-inner']} ${styles['.split']} ${styles['background-green']}`}

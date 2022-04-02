@@ -9,7 +9,9 @@ export const Hamburger: React.VFC = () => {
       className={styles.navbar}
       onClick={() => open?.setAction(!open?.action)}
     >
-      <div className={`${styles.hamburger} ${open ? 'styles.active' : ''}`}>
+      <div
+        className={`${styles.hamburger} ${open?.action ? styles.active : ''}`}
+      >
         <span className={styles.bar}></span>
         <span className={styles.bar}></span>
         <span className={styles.bar}></span>

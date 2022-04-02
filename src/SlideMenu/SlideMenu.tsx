@@ -10,7 +10,7 @@ export const SlideMenu: React.VFC = () => {
   const open = useContext(OpenContext);
   return (
     <div
-      className={`${styles['menu-page']} ${open?.action ? 'styles.open' : ''}`}
+      className={`${styles['menu-page']} ${open?.action ? styles.open : ''}`}
     >
       <nav id="nav" className={styles.nav}>
         <ul className={styles['items-ul']}>

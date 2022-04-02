@@ -11,21 +11,18 @@
 @media (max-width: 768px) {
   .menu-page {
     display: initial;
+    background-color: var(--main-white);
+    position: fixed;
+    right: -100%;
+    transition: 0.3s ease-in-out;
+  }
+
+  .menu-page.open {
     left: 20vw;
     height: 100%;
     position: absolute;
     right: 0;
-    background-color: var(--main-white);
-  }
-
-  .nav-menu {
-    position: fixed;
-    right: -100%;
-    transition: 0.3s;
-  }
-
-  .nav-menu.open {
-    right: 0;
+    transition: 0.3s ease-in-out;
   }
 
   .button-menu {

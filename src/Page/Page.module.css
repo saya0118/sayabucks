@@ -3,6 +3,10 @@
   border-bottom: 1.5px solid var(--header-under-bar-color);
 }
 
+.main.active {
+  overflow: hidden;
+}
+
 .content-inner {
   max-width: 1440px;
   margin: 1.5rem auto;

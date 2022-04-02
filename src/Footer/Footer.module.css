@@ -142,8 +142,8 @@ ul {
     display: block;
     border: none;
     background-color: #fff;
-    width: 44px;
-    height: 44px;
+    width: 32px;
+    height: 32px;
     padding: 0;
   }
 
@@ -176,6 +176,10 @@ ul {
     height: 200px;
     opacity: 1;
     visibility: visible;
+  }
+
+  .acd-check:checked + .arrow-btn {
+    transform: rotate(-180deg);
   }
 
   .footer-flex {
