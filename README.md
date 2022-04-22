@@ -48,3 +48,27 @@ Run All Style Checks
     npm run style:all
 
 You can find this template at https://github.com/bastiannispel/vite-react-ts
+
+## Using React Context in the Hamburger Menu
+
+I knew that I had to store the hamburger's open and closed state, so I created a component that uses React Context, in [this file](./src/Context/OpenContext.tsx):
+
+```typescript
+export const OpenContext = createContext<InitialState | null>(null);
+```
+
+Then, I created a provider to share the open/close state with children components in [the main app component](./src/App/App.tsx):
+
+```typescript
+export default function App() {
+  return (
+    <div className={styles.app}>
+      <OpenProvider>
+        <Header />
+        <Page />
+      </OpenProvider>
+      <Footer />
+    </div>
+  );
+}
+```
