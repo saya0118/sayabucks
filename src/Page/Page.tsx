@@ -11,7 +11,7 @@ export const Page: React.VFC = () => {
     <div className={`${styles.main} ${open?.action ? styles.active : ''}`}>
       <SlideMenu />
       <div
-        className={`${styles['content-inner']} ${styles['.split']} ${styles['background-green']}`}
+        className={`${styles['content-inner']} ${styles['background-green']}`}
       >
         <div
           className={`${styles['inner-content-image']} ${styles['split-item']}`}
@@ -26,7 +26,7 @@ export const Page: React.VFC = () => {
           >
             <MainTextBox
               span={'Free faves are at your fingertips*'}
-              titleSize={'font-mid'}
+              titleSize={'font-sp-mid'}
               description={''}
               descriptionSize={''}
             />
@@ -35,16 +35,14 @@ export const Page: React.VFC = () => {
         </div>
       </div>
       <div
-        className={`${styles['content-inner']} ${styles['background-green']} ${styles['.split']}`}
+        className={`${styles['split-reverse']} ${styles['content-inner']} ${styles['background-green']}`}
       >
         <div
-          className={`${styles['inner-content-image']} ${styles['split-item']}`}
+          className={`${styles['inner-content-image']} ${styles['split-item-reverse']}`}
         >
           <img className={styles['main-img']} src="/143-77232.jpeg" />
         </div>
-        <div
-          className={`${styles['inner-content-description']} ${styles['split-item']}`}
-        >
+        <div className={`${styles['inner-content-description']}`}>
           <div
             className={`${styles['inner-content-container']} ${styles['font-white']}`}
           >
@@ -61,7 +59,7 @@ export const Page: React.VFC = () => {
         </div>
       </div>
       <div
-        className={`${styles['content-inner']} ${styles['background-green']} ${styles['.split']}`}
+        className={`${styles['content-inner']} ${styles['background-green']}`}
       >
         <div
           className={`${styles['inner-content-image']} ${styles['split-item']}`}
@@ -86,9 +84,9 @@ export const Page: React.VFC = () => {
           </div>
         </div>
       </div>
-      <div className={`${styles['content-colum']} ${styles['.split']}`}>
+      <div className={`${styles['content-colum']}`}>
         <div
-          className={`${styles['split-item']} ${styles['responsive-split']}`}
+          className={`${styles['split-item-sp']} ${styles['responsive-split']}`}
         >
           <div
             className={`${styles['content-colum-inner-left']} ${styles['background-mint']}`}
@@ -101,7 +99,7 @@ export const Page: React.VFC = () => {
                 className={`${styles['inner-content-container']} ${styles['font-green']}`}
               >
                 <MainTextBox
-                  titleSize={'font-mid'}
+                  titleSize={'font-sp-mid'}
                   span={'Your favorites. Your way.'}
                   description={
                     'Download the app to customize your drink, order ahead and earn Rewards.*'
@@ -128,7 +126,7 @@ export const Page: React.VFC = () => {
               >
                 <MainTextBox
                   span={'A good day, on its way'}
-                  titleSize={'font-mid'}
+                  titleSize={'font-sp-mid'}
                   description={
                     'Get your favourites delivered with $3 off your order of $20 on Uber Eats thru 3/27.**'
                   }
@@ -141,22 +139,22 @@ export const Page: React.VFC = () => {
         </div>
       </div>
       <div
-        className={`${styles['content-inner']} ${styles['background-mint']} ${styles['.split']} ${styles['row-reverse']}`}
+        className={`${styles['content-inner']} ${styles['background-mint']} ${styles['split-reverse']}`}
       >
         <div
-          className={`${styles['inner-content-image']} ${styles['split-item']}`}
+          className={`${styles['inner-content-image']} ${styles['split-item-reverse']}`}
         >
           <img className={styles['main-img']} src="/143-77403.jpeg" />
         </div>
         <div
-          className={`${styles['inner-content-description']} ${styles['split-item']}`}
+          className={`${styles['inner-content-description']} ${styles['background-mint']}`}
         >
           <div
             className={`${styles['inner-content-container']} ${styles['font-green']}`}
           >
             <MainTextBox
               span={'Link. Order. Sip. Repeat'}
-              titleSize={'font-mid'}
+              titleSize={'font-sp-mid'}
               description={
                 'Sip your way toward your next adventure when you link your Starbucks® Rewards and Aeroplan® accounts.'
               }
@@ -171,7 +169,7 @@ export const Page: React.VFC = () => {
           <span>
             *At participating stores. Some restrictions apply. See&nbsp;
             <a className={styles.link} href="http://starbucks.ca/rewards">
-              http://starbucks.ca/rewards
+              starbucks.ca/rewards
             </a>
             &nbsp;for details.
           </span>
