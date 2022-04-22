@@ -72,3 +72,9 @@ export default function App() {
   );
 }
 ```
+
+## Cypress Tests
+
+This was my first time using Cypress but I found it very intuitive and convenient for testing the UI.
+
+[![asciicast](https://asciinema.org/a/489175.svg)](https://asciinema.org/a/489175)
