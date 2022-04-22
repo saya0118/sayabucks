@@ -1,4 +1,5 @@
 import React from 'react';
+import classnames from 'classnames';
 import styles from './Header.module.css';
 import { Item } from '../Item';
 import { Button } from '../Button';
@@ -15,7 +16,10 @@ export const Header = () => {
             <Hamburger />
           </div>
           <div
-            className={`${styles['flex-container']} ${styles['nav-items-wrapper']}`}
+            className={classnames(
+              styles['flex-container'],
+              styles['nav-items-wrapper'],
+            )}
           >
             <div className={styles['items-left-wrapper']}>
               <div className={styles['items-list-wrapper']}>

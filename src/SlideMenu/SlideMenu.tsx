@@ -3,6 +3,7 @@ import { OpenContext } from '../Context/OpenContext';
 import styles from './SlideMenu.module.css';
 import { Item } from '../Item';
 import { Button } from '../Button';
+
 // eslint-disable-next-line import/no-unresolved
 import logoArrow from '/svgexport-3.svg';
 
