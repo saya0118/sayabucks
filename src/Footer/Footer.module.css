@@ -98,7 +98,7 @@ ul {
 }
 
 .icon:hover {
-  box-shadow: 0px 0px 0px 6px var(--icon-background-hover);
+  box-shadow: 0 0 0 6px var(--icon-background-hover);
   border-radius: 50%;
   transition: all 0.2s ease-in-out;
   background-color: var(--icon-background-hover);
@@ -211,7 +211,7 @@ ul {
   }
 
   .arrow-btn:hover {
-    box-shadow: 0px 0px 0px 6px var(--hamburger-hover-gray);
+    box-shadow: 0 0 0 6px var(--hamburger-hover-gray);
     border-radius: 50%;
     transition: all 0.2s ease-in-out;
     background-color: var(--hamburger-hover-gray);
