@@ -1,4 +1,4 @@
-<img src="/public">
+<img src="/public/Sayabucks.png">
 # Vite-React-Ts
 
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/bastiannispel/vite-react-ts)
