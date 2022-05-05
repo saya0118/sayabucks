@@ -11,12 +11,12 @@
 This is a clone landing page of Starbucks for [React](https://reactjs.org/) apps using [Vite](https://vitejs.dev/) as a build tool and the [airbnb configuration for eslint](https://www.npmjs.com/package/eslint-config-airbnb) as well as [prettier](https://prettier.io/) for code formatting and [husky](https://github.com/typicode/husky) to setup git hooks.
 
 ## Keywords
-![](https://img.shields.io/badge/<TypeScript>-3178C6?style=for-the-badge&logo=typescript)
-![](https://img.shields.io/badge/<React>-3178C6?style=for-the-badge&logo=react)
-![](https://img.shields.io/badge/<Vite>-3178C6?style=for-the-badge&logo=vite)
-![](https://img.shields.io/badge/<Cypress>-3178C6?style=for-the-badge&logo=cypress)
-![](https://img.shields.io/badge/<Prettier>-3178C6?style=for-the-badge&logo=prettier)
-![](https://img.shields.io/badge/<Eslint>-3178C6?style=for-the-badge&logo=eslint)
+![](https://img.shields.io/badge/<TypeScript>-555555?style=for-the-badge&logo=typescript)
+![](https://img.shields.io/badge/<React>-555555?style=for-the-badge&logo=react)
+![](https://img.shields.io/badge/<Vite>-555555?style=for-the-badge&logo=vite)
+![](https://img.shields.io/badge/<Cypress>-555555?style=for-the-badge&logo=cypress)
+![](https://img.shields.io/badge/<Prettier>-555555?style=for-the-badge&logo=prettier)
+![](https://img.shields.io/badge/<Eslint>-555555?style=for-the-badge&logo=eslint)
 
 
 ## Using React Context in the Hamburger Menu
