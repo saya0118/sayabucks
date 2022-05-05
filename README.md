@@ -1,5 +1,6 @@
 <img src="/public/Sayabucks.png">
-# Vite-React-Ts
+
+## Overview
 
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/bastiannispel/vite-react-ts)
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/bastiannispel/vite-react-ts/ci?label=ci)
@@ -8,6 +9,9 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/bastiannispel/vite-react-ts)
 
 This is a clone landing page of Starbucks for [React](https://reactjs.org/) apps using [Vite](https://vitejs.dev/) as a build tool and the [airbnb configuration for eslint](https://www.npmjs.com/package/eslint-config-airbnb) as well as [prettier](https://prettier.io/) for code formatting and [husky](https://github.com/typicode/husky) to setup git hooks.
+
+## Keywords
+
 
 
 ## Using React Context in the Hamburger Menu
