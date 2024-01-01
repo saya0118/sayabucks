@@ -53,7 +53,7 @@
     "prettier": "^2.5.1",
     "stylelint": "^14.16.1",
     "stylelint-config-standard": "^25.0.0",
-    "typescript": "^4.5.4",
+    "typescript": "^5.3.3",
     "vite": "^2.7.13",
     "vite-plugin-react-svg": "^0.2.0"
   }
